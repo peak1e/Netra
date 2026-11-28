@@ -43,6 +43,7 @@ body {
 
 .brand p {
     color: #91a8c5;
+    font-family: italic;
     font-size: 9px;
 }
 
@@ -54,6 +55,7 @@ nav {
 nav a {
     color: #04ebe7;
     text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 13px;
     text-decoration: none;
 }
@@ -65,7 +67,7 @@ nav a:hover{
     display: flex;
     align-items: center;
     gap: 8px;
-    color: #0be33a;
+    color: #59f87b;
     font-size: 11px;
 }
 
@@ -87,11 +89,71 @@ button {
     color: #fff;
     border: 0;
     padding: 10px 15px;
-    font-weight: bold;
+    font-weight: italic;
     border-radius: 5px;
     cursor: pointer;
     font-size: 12px;
 }
 button:hover{
     background: #e828d2;
+}
+footer{
+    height: 40px;
+    font-family: italic;
+    background: #a7c6f5;
+    color:#0b70e3;
+    text-colour: #f4abf5;
+    border: 1px solid;
+    text-align: center;
+    border-top: 10px ;
+    padding: 15px;
+    font-size: 12px;
+
+}
+.page{
+    padding:40px 5%;
+}
+.page h2 {
+    margin-bottom: 10px;
+}
+.page p {
+    margin-bottom: 20px;
+   color: rgb(red green blue / alpha)
+}
+.kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 16px;
+    margin-bottom: 25px;
+
+}
+.kpi-card {
+   padding : 22px;
+   background : #6495dd;
+   border : 1px solid #2a3d59;
+   border-radius : 10px;
+}
+.kpi-card span {
+    color:rgb(236, 146, 162);
+    font-family: italic;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.kpi-card h2 {
+    color:#f9fb95;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 14px 0 8px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.kpi-card p {
+    color: #f5a732;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.kpi-card:hover {
+   border-color: #81d9fe;
+   transform:translateY(-3px)
 }
